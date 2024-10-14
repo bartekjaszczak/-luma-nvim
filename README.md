@@ -1,6 +1,8 @@
 # luma-nvim
 
-COLOURS GO HERE
+![luma](showcase/luma.jpg?)
+
+![luminance](showcase/luminance.jpg?)
 
 **luma** is a colourful and customisable Neovim theme, centred around yellow colour with accent colours built around it. Engineered with the CIELAB colour space in mind in order to offer optimal contrast and visual clarity.
 
@@ -8,16 +10,16 @@ COLOURS GO HERE
 
 - **Dark** and **light** theme variations
 - Adjustable contrast
-- 10 carefully selected accent colours along with 10 lighter/darker variations
+- 10 carefully selected accent colours, along with 10 lighter/darker variations
 - Supports **treesitter** highlighting as well as **semantic tokens**
-- Supports some major plugins (feel free to open an issue if you want your plugin supported)
+- Supports some major plugins (feel free to open an issue if you'd like your plugin supported)
 - Includes themes for **lualine** and **barbecue**
 
 ## Usage
 
 ### Lazy
 
-If you don't want to change any settings, `setup()` needn't to be called. Defaults are presented below.
+If you don't want to change any settings, `setup()` doesn't need to be called. The defaults are presented below.
 
 ```lua
 {
@@ -38,7 +40,7 @@ If you don't want to change any settings, `setup()` needn't to be called. Defaul
 
 ### Lualine
 
-When setting lualine theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
+When setting the lualine theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
 
 ```lua
 require("lualine").setup({
@@ -52,7 +54,7 @@ require("lualine").setup({
 
 ### Barbecue
 
-When setting barbecue theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
+When setting the barbecue theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
 
 ```lua
 require("barbecue").setup({
@@ -64,4 +66,4 @@ require("barbecue").setup({
 
 ## Preview
 
-![cpp](showcase/cpp/showcase.png?)
+![showcase](showcase/showcase.png?)

@@ -35,13 +35,13 @@ function M.setup(settings)
 
     if M.settings.theme == "light" then
         if M.settings.contrast == "low" then
-            M.internal.low_contrast_luminance = 60
-            M.internal.high_contrast_luminance = 75
+            M.internal.low_contrast_luminance = 75
+            M.internal.high_contrast_luminance = 50
         elseif M.settings.contrast == "medium" then
-            M.internal.low_contrast_luminance = 50
+            M.internal.low_contrast_luminance = 60
             M.internal.high_contrast_luminance = 40
         else
-            M.internal.low_contrast_luminance = 40
+            M.internal.low_contrast_luminance = 50
             M.internal.high_contrast_luminance = 30
         end
     else
