@@ -2,8 +2,6 @@
 
 ![luma](showcase/luma.jpg?)
 
-![luminance](showcase/luminance.jpg?)
-
 **luma** is a colourful and customisable Neovim theme, centred around yellow colour with accent colours built around it. Engineered with the CIELAB colour space in mind in order to offer optimal contrast and visual clarity.
 
 ## Features
@@ -40,7 +38,7 @@ If you don't want to change any settings, `setup()` doesn't need to be called. T
 
 ### Lualine
 
-When setting the lualine theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
+When setting the lualine theme, pick between "luma-dark" and "luma-light", depending on the theme variant you're using.
 
 ```lua
 require("lualine").setup({
@@ -54,7 +52,7 @@ require("lualine").setup({
 
 ### Barbecue
 
-When setting the barbecue theme, pick between "luma-dark" and "luma-light", depending on the theme you're using.
+When setting the barbecue theme, pick between "luma-dark" and "luma-light", depending on the theme variant you're using.
 
 ```lua
 require("barbecue").setup({
@@ -64,6 +62,14 @@ require("barbecue").setup({
 })
 ```
 
+## Variants
+
+**luma** comes in two variants: **dark** and **light**, with each having **three contrast settings**. Colour **luminance** is picked depending on the chosen contrast setting.
+
+![luminance](showcase/luminance.jpg?)
+
 ## Preview
 
-![showcase](showcase/showcase.png?)
+![showcase](showcase/showcase_dark.png?)
+
+![showcase](showcase/showcase_light.png?)
