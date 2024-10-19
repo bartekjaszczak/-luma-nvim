@@ -293,7 +293,7 @@ function M.get_highlights(theme)
         ["@lsp.type.property"] = { link = "@property" },
         ["@lsp.type.regexp"] = { link = "@string.regexp" },
         ["@lsp.type.selfKeyword"] = { link = "@variable.builtin" },
-        ["@lsp.type.selfTypeKeyword"] = { link = "@variable.builtin" },
+        ["@lsp.type.selfTypeKeyword"] = { link = "@type" },
         ["@lsp.type.string"] = { link = "@string" },
         ["@lsp.type.struct"] = { link = "@type" },
         ["@lsp.type.type"] = { link = "@type" },
